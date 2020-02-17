@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Form Registration</title>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="styles/style.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+<body>
+<div id="logo" class="container">
+	<h1><a href="#">FORM EXERCISE</a></h1>
+</div>
+
+<div id="page" class="container">
+	<div id="box1">
+		<h2 class="title"><a href="#">Member Registration Form</a></h2>
+		<div style="clear: both;">&nbsp;</div>
+		<div class="entry">
+			<p><strong>Fill out the registration form on the side with the correct data. All the fields that exist in this form must be filled</strong></p>
+			
+		</div>
+	</div>
+    
+	<div id="box2">
+   <!-- BUILD FORM PENDAFTARAN START FROM HERE, INCLUDE FULLNAME,USERNAME,PASSWORD,GENDER,BIRTDATE,HOBY,ADDRESS AND SUBMIT BUTTON -->
+   <form>
+   	<table>
+	<tr>
+		<td>Fullname</td>
+		<td>:</td>
+		<td>
+			<input type="text" name="fullname" id="fullname"  placeholder="Please Insert Fullname" value="" required="" autocomplete="">
+		</td>
+	</tr>
+	<tr>
+		<td>Username*</td>
+		<td>:</td>
+		<td>
+			<input type="text" id="username"  name="username"placeholder="Please Insert Username" value="" required="" autocomplete="">
+		</td>
+	</tr>   
+	<tr>
+		<td>Password*</td>
+		<td>:</td>
+		<td>
+			<input type="password" id="password"  name="password"placeholder="Password" value="" required="" autocomplete="">
+		</td>
+	</tr> 
+	<tr>
+		<td>Email*</td>
+		<td>:</td>
+		<td>
+			<input type="email" id="email"  name="email"placeholder="Please Insert Email Address" value="" required="" autocomplete="">
+		</td>
+	</tr>     
+	<tr>
+		<td>Gender</td>
+		<td>:</td>
+		<td>
+			<input type="radio" id="gender"  name="gender"value="" required="" autocomplete="">Male
+		    <input type="radio" id="gender"  name="gender"value="" required="" autocomplete="">Female
+		</td>
+	</tr>   
+	<tr>
+		<td>Birth Date</td>
+		<td>:</td>
+		<td>
+			<input type="Date" id="date" value="" required="" autocomplete="">
+		</td>
+	</tr>   
+	<tr>
+		<td valign="top">Hoby</td>
+		<td valign="top">:</td>
+		<td>
+			<input type="checkbox" id="hoby"  name="hoby"value="" required="" autocomplete="">Sport &nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="checkbox" id="hoby"  name="hoby"value="" required="" autocomplete="">Travel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="checkbox" id="hoby"  name="hoby"value="" required="" autocomplete="">Culture<br>
+			<input type="checkbox" id="hoby"  name="hoby"value="" required="" autocomplete="">Culinary
+			<input type="checkbox" id="hoby"  name="hoby"value="" required="" autocomplete="">Shopping
+			<input type="checkbox" id="hoby"  name="hoby"value="" required="" autocomplete="">Praying
+		</td>
+	</tr>   
+	<tr>
+		<td valign="top">Address</td>
+		<td valign="top">:</td>
+		<td>
+			<textarea placeholder="Address"></textarea> 
+		</td>
+	</tr>   
+	<tr>
+		<td></td>
+		<td></td>
+		<td>
+			<input type="submit" name="">
+			<input type="reset" name="">
+		</td>
+	</tr>
+	</table>     		
+   </form>
+   		
+	</div>
+    
+    
+    
+</div>
+<div id="footer" class="container">
+	<p>Copyright &copy 2020 Nurhalimah </p>
+</div>
+</body>
+</html>
